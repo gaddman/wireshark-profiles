@@ -223,10 +223,13 @@ gui.column.format:
 	"Delta", "%Gt",
 	"Source", "%s",
 	"Destination", "%d",
+	"Source Port", "%Cus:udp.srcport:0:R",
+	"Destination Port", "%Cus:udp.dstport:0:R",
 	"Protocol", "%p",
 	"Length", "%L",
+	"IP ID", "%Cus:ip.id:0:R",
 	"QUIC pkt #", "%Cus:gquic.packet_number:0:R",
-	"Identification", "%Cus:ip.id:0:R",
+	"TCP stream", "%Cus:tcp.stream:0:R",
 	"Info", "%i"
 
 ####### User Interface: Font ########
